@@ -1,1 +1,3 @@
 # TwitterClone
+
+NextJS, SQLite, TailwindCSS 
