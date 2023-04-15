@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(10, 10, 10);
+}
+
+select {
+  background-color: rgba(10, 10, 10);
+}
+
+.bg-gray-950 {
+  background-color: rgba(10, 10, 10);
+}
+
+.login-animation > input:not(:placeholder-shown) + div {
+  font-size: small;
+  top: -19px;
+  color: rgb(96, 165, 250);
+}
+
+.login-animation > div {
+  top: -9px;
+}
+
+.login-animation:focus-within > div {
+  font-size: small;
+  top: -19px;
+  color: rgb(96, 165, 250);
+}
+
+.login-animation:focus-within > input {
+  border-color: rgb(96, 165, 250);
+}

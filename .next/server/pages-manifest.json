@@ -1,0 +1,12 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/tweet/[id]": "pages/tweet/[id].js",
+  "/login": "pages/login.js",
+  "/api/tweet/[id]": "pages/api/tweet/[id].js",
+  "/api/me": "pages/api/me.js",
+  "/api/login": "pages/api/login.js",
+  "/api/tweet": "pages/api/tweet.js",
+  "/": "pages/index.js"
+}
